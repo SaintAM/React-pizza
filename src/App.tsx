@@ -12,7 +12,7 @@ function App() {
     return (
         <Routes>
             <Route path="/" element={<MainLayout />}>
-                <Route path="react-pizza" element={<Home />} />
+                <Route path="/react-pizza" element={<Home />} />
                 <Route
                     path="cart"
                     element={
